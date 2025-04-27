@@ -44,6 +44,6 @@ func main() {
 	})
 
 	if err := app.Listen(":9999"); err != nil {
-		log.Fatal(err)
+		log.Fatal("error")
 	}
 }
